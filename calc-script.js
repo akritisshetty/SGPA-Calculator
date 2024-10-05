@@ -11,7 +11,6 @@ function addSubject() {
     const credit = 
         parseInt(creditInput.value);
 
-    // Validate credit input
     const inputError = 
         document.getElementById('inputError')
     const creditError = 
@@ -112,7 +111,6 @@ function calculateSGPA() {
 }
 
 function getGradePoint(grade) {
-    // Assign grade points as per your grading system
     switch (grade) {
         case 'O': return 10.0;
         case 'A': return 9.0;
